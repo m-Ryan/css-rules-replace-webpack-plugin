@@ -4,7 +4,7 @@ export default function(source: string) {
 	options.rules.forEach((item) => {
 		item.originValues.forEach((value) => {
 			source = source.replace(
-				new RegExp(`\b${item.name}\\s*:\\s*${value}\b`, 'mig'),
+				new RegExp(`\\b${item.name}\\s*:\\s*${value}\\b`, 'mig'),
 				`${item.name}:${item.replaceValue}`
 			);
 		});
