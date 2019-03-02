@@ -8,7 +8,7 @@ function default_1(source) {
     var options = loader_utils_1.default.getOptions(this);
     options.rules.forEach(function (item) {
         item.originValues.forEach(function (value) {
-            source = source.replace(new RegExp("\b" + item.name + "\\s*:\\s*" + value + "\b", 'mig'), item.name + ":" + item.replaceValue);
+            source = source.replace(new RegExp("\\b" + item.name + "\\s*:\\s*" + value + "\\b", 'mig'), item.name + ":" + item.replaceValue);
         });
     });
     return source;
