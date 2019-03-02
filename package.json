@@ -1,6 +1,6 @@
 {
   "name": "css-rules-replace-webpack-plugin",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "description": "cssRules replace",
   "main": "dist/index.js",
   "author": "mRyan",
