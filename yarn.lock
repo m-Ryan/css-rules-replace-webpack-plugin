@@ -605,14 +605,6 @@ crypto-browserify@^3.11.0:
     randombytes "^2.0.0"
     randomfill "^1.0.3"
 
-css-rules-replace-webpack-plugin@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/css-rules-replace-webpack-plugin/-/css-rules-replace-webpack-plugin-1.0.2.tgz#15c782a7b7e85f59a6fedef687c77c0e8a0fc730"
-  dependencies:
-    "@types/webpack" "^4.4.24"
-    typescript "^3.3.3333"
-    webpack "^4.29.5"
-
 cyclist@~0.2.2:
   version "0.2.2"
   resolved "http://registry.npm.taobao.org/cyclist/download/cyclist-0.2.2.tgz#1b33792e11e914a2fd6d6ed6447464444e5fa640"
